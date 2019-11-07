@@ -1,0 +1,4 @@
+create table trainschedule(traincode varchar(100), stncode varchar(100), day varchar(5), atime date)ENGINE=INNODB;
+
+
+create table station(stncode varchar(100), stnname varchar(200))ENGINE=INNODB;
